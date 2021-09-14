@@ -18,7 +18,9 @@ public class VariableExample {
 //		number2 = 30; 이건 상수이기 때문에 에러
 		
 		result = number1 + number2;
-		double result1 = number3 / 11;
+		double result1 = number3 / 20.0; // int/int = int, int/double = double
+// byte < short < int < long < float < double (큰 타입으로 계산)
+		
 		System.out.println("결과값 : " + result1);
 		System.out.println("결과값 : " + result);
 		System.out.println("결과 : " + number1 + number2);

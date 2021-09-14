@@ -16,7 +16,7 @@ public class StringExample {
 		String names = "오재준";
 		int ages = 100;
 		System.out.println(names + "의 나이는 " + ages + "입니다.");
-		
+		//
 	}
 
 }
