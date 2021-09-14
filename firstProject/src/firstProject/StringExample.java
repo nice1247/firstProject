@@ -6,7 +6,7 @@ public class StringExample {
 		int age = 20;
 		String name = "홍길동";
 		
-		long myAge = age; // 자동형변환 (promotion)
+		long myAge = age; // 자동형변환 (promotion) (작은 데이터타입에서 큰 데이터타입으로 바뀔 때)
 		age = (int) myAge; // 강제형변환 (casting)	
 	
 		// age = "홍길동"; 
