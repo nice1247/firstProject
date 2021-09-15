@@ -64,9 +64,17 @@ public class review_9_14 {
 		
 //		boolean pass2;
 //		pass2 = num2 >= 80; num2 못 읽어들임!!! if구문안에 num2가 있어서 ??
+
 		
-		
-		
+		System.out.println("입력하세요.");
+		String exam1 = scn.nextLine();
+		if(exam1.equals("")) {
+			exam1 = "0";
+		}
+		System.out.println("입력하세요2");
+		int exam2 = scn.nextInt();
+		scn.nextLine();
+		//if(exam2 = "") {       //int가 아니라 String으로 해야 공백입력가능 ??
 		
 		
 		
@@ -74,3 +82,7 @@ public class review_9_14 {
 	}
 
 }
+
+
+
+// 변수, boolean , scanner, if.....
