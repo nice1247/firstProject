@@ -52,7 +52,7 @@ public class review_915 {
 
 		// 반복문 while(true or false)
 		// while(조건) 으로 해서 for 구문처럼 사용가능
-		// 몇 번 시행해야 될 지 모르는 반복문들
+		// 몇 번 시행해야 될 지 모르는 반복문들에 유용
 
 		while (true) {
 			int a = (int) (Math.random() * 10) + 1;
@@ -63,6 +63,13 @@ public class review_915 {
 		}
 		System.out.println("============while");
 		
+		// while은 첫줄부터 false이면 아래 확인 안함
+		// do while은 while에서 검증하기 때문에 첫문장이 틀려도 한줄은 나옴
+		
+		int i=1;
+		do {
+			
+		} while(true);
 		
 		
 
