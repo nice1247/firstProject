@@ -58,7 +58,7 @@ public class MainExe {
 
 	public static void showList(String[] ary) {
 		for (int i = 0; i < ary.length; i++) {
-			System.out.println(ary[i]);
+			System.out.printf("번호 : %d, 이름 : %s\n", i, ary[i]);
 		}
 	}
 }
