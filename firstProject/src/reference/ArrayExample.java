@@ -19,6 +19,10 @@ public class ArrayExample {
 		for (int i = 0; i <= 4; i++) {
 			System.out.println(intAry[i]);
 		}
+		
+		for (int k : intAry) {
+			System.out.println(intAry[k-1]);
+		}
 		System.out.println("====배열 반복문");
 
 //		intAry = 10;

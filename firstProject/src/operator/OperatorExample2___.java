@@ -1,6 +1,6 @@
 package operator;
 
-public class OperatorExample2 {
+public class OperatorExample2___ {
 	public static void main(String[] args) {
 		//대입(할당)연산자
 		int num1, num2, result;

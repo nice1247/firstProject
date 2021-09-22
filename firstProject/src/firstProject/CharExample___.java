@@ -1,6 +1,6 @@
 package firstProject;
 
-public class CharExample {
+public class CharExample___ {
 	public static void main(String[] args) {
 		// int, String, boolean, char
 		// byte(1byte) < short, char(2) < int(4) < long(8) < float < double

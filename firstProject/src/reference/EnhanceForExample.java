@@ -12,7 +12,7 @@ public class EnhanceForExample {
 		// 같은 글자 찾기
 		for (int i = 0; i < strAry.length; i++) {
 			if (strAry[i].equals("Hong"))
-				System.out.println(strAry[i]);
+				System.out.printf("순서 : %d, 내용 : %s \n", i, strAry[i]);
 		}
 		System.out.println("==========끝1.");
 

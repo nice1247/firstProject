@@ -1,6 +1,6 @@
 package operator;
 
-public class OperatorExample {
+public class OperatorExample___ {
 	public static void main(String[] args) {
 		// +, -, *, /, %    ///    &, |, ^, ~
 		int num1, num2, result;

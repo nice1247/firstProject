@@ -48,6 +48,8 @@ public class ConditionExe {
 		}
 		System.out.println("끝.");
 
+		
+		// 위쪽 if 구문부터 true이면 문장끝남
 		num1 = 12;
 		if (num1 % 2 == 0 && num1 % 3 == 0) {
 			System.out.println("6의 배수입니다.");

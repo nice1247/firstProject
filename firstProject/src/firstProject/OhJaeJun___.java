@@ -2,7 +2,7 @@ package firstProject;
 
 import java.util.Scanner;
 
-public class OhJaeJun {
+public class OhJaeJun___ {
 	public static void main(String[] args) {
 		int apple = 500;
 		int banana = 1000;
